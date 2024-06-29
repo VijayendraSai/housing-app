@@ -85,6 +85,16 @@ export class HomeComponent {
       wifi: true,
       laundry: true,
     },
+    {
+      id: 6,
+      name: 'Seriously Safe Towns',
+      city: 'Oakland',
+      state: 'CA',
+      photo: `${this.baseUrl}/phil-hearing-IYfp2Ixe9nM-unsplash.jpg`,
+      availableUnits: 5,
+      wifi: true,
+      laundry: true,
+    },
     
   ];
 }
