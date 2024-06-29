@@ -95,6 +95,35 @@ export class HomeComponent {
       wifi: true,
       laundry: true,
     },
-    
+    {
+      id: 7,
+      name: 'Hopeful Housing Solutions',
+      city: 'Oakland',
+      state: 'CA',
+      photo: `${this.baseUrl}/r-architecture-GGupkreKwxA-unsplash.jpg`,
+      availableUnits: 2,
+      wifi: true,
+      laundry: true,
+    },
+    {
+      id: 8,
+      name: 'Seriously Safe Towns',
+      city: 'Oakland',
+      state: 'CA',
+      photo: `${this.baseUrl}/saru-robert-9rP3mxf8qWI-unsplash.jpg`,
+      availableUnits: 10,
+      wifi: false,
+      laundry: false,
+    },
+    {
+      id: 9,
+      name: 'Capital Safe Towns',
+      city: 'Portland',
+      state: 'OR',
+      photo: `${this.baseUrl}/webaliser-_TPTXZd9mOo-unsplash.jpg`,
+      availableUnits: 6,
+      wifi: true,
+      laundry: true,
+    },
   ];
 }
